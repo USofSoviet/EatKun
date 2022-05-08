@@ -470,7 +470,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     function initSetting() {
         $("#username").val(cookie("username") ? cookie("username") : "");
         $("#message").val(cookie("message") ? cookie("message") : "");
-        $("title").text(cookie("title") ? cookie("title") : "吃掉催逝员");
+        $("title").text(cookie("title") ? cookie("title") : "鸡你太美");
         let keyboard = cookie('keyboard');
         if (keyboard) {
             keyboard = keyboard.toLowerCase();
